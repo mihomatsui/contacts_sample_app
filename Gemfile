@@ -19,6 +19,9 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
+# 多言語対応(Rails 6の場合)
+gem 'rails-i18n', '~>6.0'
+
 group :development, :test do
   gem 'letter_opener_web', '~> 1.0'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
