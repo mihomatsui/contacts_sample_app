@@ -1,6 +1,6 @@
 class ContactMailer < ApplicationMailer
 
-  def user_email(name:, email;)
+  def user_email(name:, email:)
     @name = name
     mail (
       to: email,
